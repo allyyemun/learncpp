@@ -2,7 +2,9 @@
 #include "learn.h"
 
 int main(int argc, char *argv[]){
-   std::cout << "Hello World!" << add(3, 4) << std::endl;
+  int x1 = 10;
+  int x2 = 20;
+   std::cout << "Hello World!" << add(x1, x2) << std::endl;
    return 0;
 }
 
